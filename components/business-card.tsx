@@ -29,11 +29,16 @@ export function BusinessCard() {
             </div>
 
             {/* Description */}
-            <div className="max-w-3xl mx-auto md:mx-0">
-              <p className="text-lg md:text-xl lg:text-2xl text-white/90 leading-relaxed text-pretty drop-shadow-md">
-                Experto en regulaciones de comercio internacional y clasificación aduanera. Ayudo a las empresas a
-                navegar códigos arancelarios complejos y asegurar el cumplimiento con los requisitos de comercio global
-                en todos los modos de transporte.
+            <div className="max-w-3xl md:mx-0 text-left">
+              <p className="text-xl md:text-2xl lg:text-3xl text-white/90 leading-relaxed text-pretty drop-shadow-md">
+
+                Damián es un Analista de Comercio Exterior con siete años de experiencia, especializado en clasificación arancelaria. 
+                A lo largo de su carrera, ha trabajado para empresas de renombre global como Google y General Electric, 
+                demostrando una sólida capacidad para gestionar y optimizar operaciones de comercio exterior en entornos complejos.
+                </p>
+              <p className="text-xl md:text-2xl lg:text-3xl text-white/90 leading-relaxed text-pretty drop-shadow-md">
+                Su profundo conocimiento de las normativas aduaneras lo convierte en un socio estratégico ideal para empresas que buscan 
+                eficiencia y cumplimiento en sus operaciones internacionales.
               </p>
             </div>
 

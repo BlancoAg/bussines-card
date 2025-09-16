@@ -46,38 +46,38 @@ export function BusinessCard() {
             </div>
 
             {/* Right Column - Contact Information */}
-            <div className="space-y-8 lg:space-y-12">
+            <div className="space-y-8 lg:space-y-12 lg:flex lg:flex-col lg:items-center">
               {/* Contact Information */}
               <div className="space-y-6">
                 <div className="flex items-center gap-4 text-white/90 justify-center lg:justify-start">
-                  <div className="flex items-center justify-center w-12 h-12 bg-cyan-500/20 rounded-full backdrop-blur-sm">
-                    <Mail className="w-6 h-6 text-cyan-300" />
+                  <div className="flex items-center justify-center w-16 h-16 bg-cyan-500/20 rounded-full backdrop-blur-sm">
+                    <Mail className="w-10 h-10 text-cyan-300" />
                   </div>
                   <span className="text-base md:text-lg lg:text-xl">damian.spirollari@gmail.com</span>
                 </div>
                 <div className="flex items-center gap-4 text-white/90 justify-center lg:justify-start">
-                  <div className="flex items-center justify-center w-12 h-12 bg-lime-500/20 rounded-full backdrop-blur-sm">
-                    <Phone className="w-6 h-6 text-lime-300" />
+                  <div className="flex items-center justify-center w-16 h-16 bg-lime-500/20 rounded-full backdrop-blur-sm">
+                    <Phone className="w-10 h-10 text-lime-300" />
                   </div>
                   <span className="text-base md:text-lg lg:text-xl">+54 9 11 5578-1853</span>
                 </div>
               </div>
 
               {/* Social Links */}
-              <div className="flex gap-6 justify-center lg:justify-start">
+              <div className="flex gap-6 justify-center lg:justify-center">
                 <a
                   href="https://www.linkedin.com/in/damian-andres-spirollari-66547470/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center w-16 h-16 bg-cyan-500/20 backdrop-blur-sm rounded-full hover:bg-cyan-500/30 transition-colors cursor-pointer"
+                  className="flex items-center justify-center w-20 h-20 bg-cyan-500/20 backdrop-blur-sm rounded-full hover:bg-cyan-500/30 transition-colors cursor-pointer"
                 >
-                  <Linkedin className="w-8 h-8 text-cyan-300" />
+                  <Linkedin className="w-12 h-12 text-cyan-300" />
                 </a>
                 <a
                   href="mailto:damian.spirollari@gmail.com"
-                  className="flex items-center justify-center w-16 h-16 bg-lime-500/20 backdrop-blur-sm rounded-full hover:bg-lime-500/30 transition-colors cursor-pointer"
+                  className="flex items-center justify-center w-20 h-20 bg-lime-500/20 backdrop-blur-sm rounded-full hover:bg-lime-500/30 transition-colors cursor-pointer"
                 >
-                  <Mail className="w-8 h-8 text-lime-300" />
+                  <Mail className="w-12 h-12 text-lime-300" />
                 </a>
               </div>
             </div>
